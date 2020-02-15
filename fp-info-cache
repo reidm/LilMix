@@ -1,4 +1,4 @@
-16883315451053872
+16888060135705872
 4ms-footprints
 4ms-logo-1
 
@@ -2402,6 +2402,13 @@ Resistor LDR10.8.5mm
 2
 4ms_SolderJumper
 JUMPER_SMD_1x2
+SOLDER JUMPER
+SOLDER JUMPER
+0
+2
+2
+4ms_SolderJumper
+JUMPER_SMD_1x2_X_WIDE
 SOLDER JUMPER
 SOLDER JUMPER
 0
@@ -47103,6 +47110,13 @@ Alpha9mmPot-SemiSMD2
 5
 3
 Eurocad
+Alpha9mmPot-SemiSMD3
+
+
+0
+5
+3
+Eurocad
 B3W9_1LED
 
 
@@ -47167,6 +47181,13 @@ MOUSEBITE1mm
 0
 Eurocad
 PJ301M-12
+
+
+0
+3
+3
+Eurocad
+PJ301M-12-CC-TIGHT
 
 
 0
