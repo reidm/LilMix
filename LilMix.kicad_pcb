@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 11)
+    (drawings 19)
     (tracks 0)
     (zones 0)
     (modules 51)
@@ -35,6 +35,10 @@
 
   (setup
     (last_trace_width 0.25)
+    (user_trace_width 0.3)
+    (user_trace_width 0.4)
+    (user_trace_width 0.5)
+    (user_trace_width 0.75)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -2169,6 +2173,14 @@
     )
   )
 
+  (gr_line (start 169 106.8) (end 89.4 106.8) (layer Edge.Cuts) (width 0.05) (tstamp 5E479C00))
+  (gr_line (start 89.4 63) (end 89.4 106.8) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 169 63) (end 89.4 63) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 169 106.8) (end 169 63) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 93 139.4) (end 93 159) (layer Edge.Cuts) (width 0.05) (tstamp 5E4799BA))
+  (gr_line (start 158.8 139.4) (end 93 139.4) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 158.8 159) (end 158.8 139.4) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 93 159) (end 158.8 159) (layer Edge.Cuts) (width 0.05))
   (gr_circle (center 146.956602 94.5) (end 147.756602 94) (layer Edge.Cuts) (width 0.05) (tstamp 5E47818C))
   (gr_circle (center 135.956602 94.5) (end 136.756602 94) (layer Edge.Cuts) (width 0.05) (tstamp 5E478162))
   (gr_circle (center 102.2 94.5) (end 103 94) (layer Edge.Cuts) (width 0.05))
