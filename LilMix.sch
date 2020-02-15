@@ -340,14 +340,10 @@ F 3 "" H 4450 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-5200 5850 -4850 5850
+	-4750 2100 -4850 2100
 Wire Wire Line
-	-6300 2100 -6400 2100
-Wire Wire Line
-	-5850 5050 -5600 5050
-Wire Wire Line
-	-5850 4950 -5600 4950
-Text GLabel -5600 5050 2    47   Input ~ 0
+	-5850 5050 -5750 5050
+Text GLabel -5750 5050 2    47   Input ~ 0
 J1_INSERT
 Wire Wire Line
 	6600 5950 6700 5950
@@ -1025,15 +1021,15 @@ F 3 "" H 2200 1250 50  0001 C CNN
 	1    2200 1250
 	0    1    -1   0   
 $EndComp
-Text GLabel -6400 2100 0    47   Input ~ 0
+Text GLabel -4850 2100 0    47   Input ~ 0
 J3_L_B
-Text GLabel -4850 5950 2    47   Input ~ 0
+Text GLabel -5100 5950 2    47   Input ~ 0
 J2_INSERT
 Wire Wire Line
-	-6050 3150 -6050 3350
+	-6550 3150 -6550 3350
 Wire Wire Line
-	-6150 3150 -6050 3150
-Text GLabel -6150 3150 0    47   Input ~ 0
+	-6650 3150 -6550 3150
+Text GLabel -6650 3150 0    47   Input ~ 0
 J1_INSERT
 Wire Wire Line
 	3050 4850 3050 3900
@@ -1354,15 +1350,12 @@ F 3 "" H 1450 6050 50  0001 C CNN
 $EndComp
 Text Notes 6300 7250 0    354  ~ 0
 LilMix Main
-Text GLabel -6150 3000 0    50   Input ~ 0
+Text GLabel -5150 3000 0    50   Input ~ 0
 J1_L_B
 Wire Wire Line
-	-6150 3000 -5800 3000
+	-5150 3000 -4800 3000
 Wire Wire Line
-	-5800 3000 -5800 3350
-Connection ~ -5800 3350
-Wire Wire Line
-	-5800 3350 -4050 3350
+	-4800 3000 -4800 3350
 Text GLabel 1600 1250 0    50   Input ~ 0
 J1_L_A
 Text GLabel -3150 650  0    50   Input ~ 0
@@ -1385,20 +1378,13 @@ Wire Wire Line
 	1600 2200 2050 2200
 Wire Wire Line
 	-5050 3450 -4050 3450
-Connection ~ -5850 4150
-Wire Wire Line
-	-5850 4150 -5050 4150
-Wire Wire Line
-	-5050 4150 -5050 3450
 Wire Wire Line
 	-6400 4400 -6250 4400
 Text GLabel -6250 4400 2    50   Input ~ 0
 GND_B
 Wire Wire Line
-	-5850 3800 -5850 4150
-Wire Wire Line
-	-6050 3800 -5850 3800
-Text GLabel -6050 3800 0    50   Input ~ 0
+	-5250 3650 -5050 3650
+Text GLabel -5250 3650 0    50   Input ~ 0
 J2_L_B
 $Comp
 L eurocad:PJ301M-12 J2_L1
@@ -1419,49 +1405,28 @@ Wire Wire Line
 	-6050 3950 -5950 3950
 Wire Wire Line
 	-5950 3950 -5950 4150
-Connection ~ -5950 4150
 Wire Wire Line
-	-5950 4150 -5850 4150
-Wire Wire Line
-	-5850 5200 -5700 5200
-Text GLabel -5700 5200 2    50   Input ~ 0
+	-5850 5200 -5750 5200
+Text GLabel -5750 5200 2    50   Input ~ 0
 GND_B
 Wire Wire Line
-	-5200 5950 -4850 5950
+	-5200 5950 -5100 5950
 Wire Wire Line
-	-5200 6100 -5050 6100
-Text GLabel -5050 6100 2    50   Input ~ 0
+	-5200 6100 -5100 6100
+Text GLabel -5100 6100 2    50   Input ~ 0
 GND_B
-Wire Wire Line
-	-5600 4600 -5600 4950
-Wire Wire Line
-	-5450 4600 -5600 4600
-Text GLabel -5450 4600 2    50   Input ~ 0
+Text GLabel -4800 4400 0    50   Input ~ 0
 J1_R_B
 Wire Wire Line
-	-4850 5500 -4850 5850
-Wire Wire Line
-	-4700 5500 -4850 5500
-Text GLabel -4700 5500 2    50   Input ~ 0
+	-4450 5300 -4300 5300
+Text GLabel -4450 5300 0    50   Input ~ 0
 J2_R_B
-Connection ~ -4850 5850
-Connection ~ -5600 4950
 Wire Wire Line
-	-4650 3550 -4650 4950
+	-4650 3550 -4650 4400
 Wire Wire Line
-	-5600 4950 -4650 4950
-Wire Wire Line
-	-4300 5850 -4300 3650
-Wire Wire Line
-	-4850 5850 -4300 5850
-Wire Wire Line
-	-6300 2350 -6300 2100
-Wire Wire Line
-	-6200 1900 -6300 1900
-Text GLabel -6300 1900 0    47   Input ~ 0
+	-4650 2450 -4750 2450
+Text GLabel -4750 2450 0    47   Input ~ 0
 J3_R_B
-Wire Wire Line
-	-6200 1900 -6200 2500
 Text GLabel -2800 750  2    50   Input ~ 0
 J2_L_B
 Text GLabel -2800 850  2    50   Input ~ 0
@@ -1503,23 +1468,9 @@ J3_L_A
 Text GLabel 1600 6000 0    50   Input ~ 0
 J3_R_A
 Wire Wire Line
-	-6550 2350 -6300 2350
-Wire Wire Line
-	-6300 2350 -4450 2350
-Wire Wire Line
-	-4450 2350 -4450 3150
-Wire Wire Line
 	-4450 3150 -4050 3150
-Connection ~ -6300 2350
 Wire Wire Line
 	-4050 3250 -4650 3250
-Wire Wire Line
-	-4650 3250 -4650 2500
-Wire Wire Line
-	-4650 2500 -6200 2500
-Wire Wire Line
-	-6550 2500 -6200 2500
-Connection ~ -6200 2500
 Text GLabel -7100 2650 2    50   Input ~ 0
 GND_B
 Wire Wire Line
@@ -1530,11 +1481,8 @@ Wire Wire Line
 	-3550 3150 -3150 3150
 Wire Wire Line
 	-3150 3150 -3150 3250
-Connection ~ -6050 3350
 Wire Wire Line
-	-6050 3350 -5800 3350
-Wire Wire Line
-	-7050 3350 -6050 3350
+	-7050 3350 -6550 3350
 $Comp
 L 4ms-headers:Conn_02x04_Odd_Even JP2
 U 1 1 5E48A6AB
@@ -1764,4 +1712,136 @@ F 3 "" H 4250 5650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4350 5650 4250 5650
+$Comp
+L 4ms-passives:C C11
+U 1 1 5E6EE0E9
+P -5700 2300
+F 0 "C11" V -5952 2300 50  0000 C CNN
+F 1 "1uF" V -5861 2300 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H -5662 2150 50  0001 C CNN
+F 3 "" H -5700 2300 50  0001 C CNN
+	1    -5700 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4650 2450 -4650 2600
+$Comp
+L 4ms-passives:C C12
+U 1 1 5E77E136
+P -5700 2600
+F 0 "C12" V -5952 2600 50  0000 C CNN
+F 1 "1uF" V -5861 2600 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H -5662 2450 50  0001 C CNN
+F 3 "" H -5700 2600 50  0001 C CNN
+	1    -5700 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-6550 2350 -6100 2350
+Wire Wire Line
+	-6100 2350 -6100 2300
+Wire Wire Line
+	-6100 2300 -5850 2300
+Wire Wire Line
+	-5550 2300 -4750 2300
+Connection ~ -4750 2300
+Wire Wire Line
+	-4750 2300 -4750 2100
+Wire Wire Line
+	-4450 2300 -4750 2300
+Wire Wire Line
+	-4450 2300 -4450 3150
+Wire Wire Line
+	-6550 2500 -6100 2500
+Wire Wire Line
+	-6100 2500 -6100 2600
+Wire Wire Line
+	-6100 2600 -5850 2600
+Wire Wire Line
+	-5550 2600 -4650 2600
+Connection ~ -4650 2600
+Wire Wire Line
+	-4650 2600 -4650 3250
+Wire Wire Line
+	-4800 3350 -4050 3350
+Wire Wire Line
+	-8450 1300 -7150 1300
+$Comp
+L 4ms-passives:C C13
+U 1 1 5E96373C
+P -5700 3350
+F 0 "C13" V -5952 3350 50  0000 C CNN
+F 1 "1uF" V -5861 3350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H -5662 3200 50  0001 C CNN
+F 3 "" H -5700 3350 50  0001 C CNN
+	1    -5700 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4800 3350 -5550 3350
+Connection ~ -4800 3350
+Wire Wire Line
+	-5850 3350 -6550 3350
+Connection ~ -6550 3350
+$Comp
+L 4ms-passives:C C14
+U 1 1 5EA7A2EC
+P -5650 4150
+F 0 "C14" V -5902 4150 50  0000 C CNN
+F 1 "1uF" V -5811 4150 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H -5612 4000 50  0001 C CNN
+F 3 "" H -5650 4150 50  0001 C CNN
+	1    -5650 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5050 3650 -5050 3450
+Wire Wire Line
+	-5500 4150 -5050 4150
+Wire Wire Line
+	-5050 4150 -5050 3650
+Connection ~ -5050 3650
+Wire Wire Line
+	-5800 4150 -5950 4150
+Connection ~ -5950 4150
+$Comp
+L 4ms-passives:C C15
+U 1 1 5EB9648D
+P -5050 4950
+F 0 "C15" V -5302 4950 50  0000 C CNN
+F 1 "1uF" V -5211 4950 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H -5012 4800 50  0001 C CNN
+F 3 "" H -5050 4950 50  0001 C CNN
+	1    -5050 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4650 4950 -4900 4950
+Wire Wire Line
+	-5200 4950 -5850 4950
+Connection ~ -4300 5300
+Wire Wire Line
+	-4800 4400 -4650 4400
+Connection ~ -4650 4400
+Wire Wire Line
+	-4650 4400 -4650 4950
+Wire Wire Line
+	-4300 3650 -4300 5300
+$Comp
+L 4ms-passives:C C16
+U 1 1 5ED55C6A
+P -4550 5850
+F 0 "C16" V -4802 5850 50  0000 C CNN
+F 1 "1uF" V -4711 5850 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H -4512 5700 50  0001 C CNN
+F 3 "" H -4550 5850 50  0001 C CNN
+	1    -4550 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5200 5850 -4700 5850
+Wire Wire Line
+	-4400 5850 -4300 5850
+Wire Wire Line
+	-4300 5300 -4300 5850
 $EndSCHEMATC
