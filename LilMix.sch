@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:LilMix-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -13,57 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	6450 1500 6750 1500
-Wire Wire Line
-	6450 1500 6450 1600
-Wire Wire Line
-	6450 3100 6750 3100
-Wire Wire Line
-	6450 3100 6450 3200
-Wire Wire Line
-	6600 1750 6700 1750
-$Comp
-L 4ms-power:GND #PWR0128
-U 1 1 5E60A74D
-P 6700 1850
-F 0 "#PWR0128" H 6700 1600 50  0001 C CNN
-F 1 "GND" H 6705 1677 50  0000 C CNN
-F 2 "" H 6700 1850 50  0001 C CNN
-F 3 "" H 6700 1850 50  0001 C CNN
-	1    6700 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 1750 6700 1850
-Wire Wire Line
-	6600 3350 6700 3350
-$Comp
-L 4ms-power:GND #PWR0112
-U 1 1 5E5F84AC
-P 6700 3450
-F 0 "#PWR0112" H 6700 3200 50  0001 C CNN
-F 1 "GND" H 6705 3277 50  0000 C CNN
-F 2 "" H 6700 3450 50  0001 C CNN
-F 3 "" H 6700 3450 50  0001 C CNN
-	1    6700 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 3350 6700 3450
-$Comp
-L 4ms-mech:TRIMPOT RV6
-U 1 1 5E59B87E
-P 6450 3350
-F 0 "RV6" V 6335 3350 50  0000 C CNN
-F 1 "100k" V 6244 3350 50  0000 C CNN
-F 2 "4ms-footprints:Audio_Mod_Header_1x03" H 6650 3100 50  0001 C CNN
-F 3 "" H 6450 3350 50  0001 C CNN
-	1    6450 3350
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	6050 3350 6300 3350
 Wire Wire Line
 	7000 1700 7000 1800
 $Comp
@@ -92,17 +42,6 @@ F 3 "" H 7000 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7200 1700 7000 1700
-$Comp
-L 4ms-mech:TRIMPOT RV5
-U 1 1 5E4D0E6F
-P 6450 1750
-F 0 "RV5" V 6335 1750 50  0000 C CNN
-F 1 "100k" V 6244 1750 50  0000 C CNN
-F 2 "4ms-footprints:Audio_Mod_Header_1x03" H 6650 1500 50  0001 C CNN
-F 3 "" H 6450 1750 50  0001 C CNN
-	1    6450 1750
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	1000 3150 1450 3150
 $Comp
@@ -134,23 +73,16 @@ F 3 "" H 9050 4700 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 7600 1900 7700
+	-1400 5000 -1400 5100
 Wire Wire Line
-	1700 7600 1800 7600
+	-1450 5100 -1400 5100
 Connection ~ 2950 7100
 Wire Wire Line
 	2400 7100 2950 7100
 Wire Wire Line
-	1900 7200 1800 7200
+	-1050 5000 -1150 5000
 Wire Wire Line
-	1900 7100 1900 7200
-Connection ~ 2650 7400
-Connection ~ 1700 7400
-Wire Wire Line
-	1700 7400 2650 7400
-Connection ~ 1200 7500
-Connection ~ 1200 7400
-Connection ~ 1200 7300
+	-1200 4850 -1200 4950
 Connection ~ 2650 7700
 Wire Wire Line
 	7900 4600 8050 4600
@@ -504,7 +436,7 @@ U 1 1 5E47F384
 P 8950 3300
 F 0 "J5" H 8472 3284 50  0000 R CNN
 F 1 "MONO" H 8472 3375 50  0000 R CNN
-F 2 "4ms-footprints:PJ301M-12" H 8950 3300 50  0001 C CNN
+F 2 "Eurocad:EighthInch_PJ301BM_CC_FIXED" H 8950 3300 50  0001 C CNN
 F 3 "" H 8950 3300 50  0000 C CNN
 	1    8950 3300
 	-1   0    0    1   
@@ -515,17 +447,11 @@ U 1 1 5E47F37A
 P 8950 1700
 F 0 "J4" H 8472 1684 50  0000 R CNN
 F 1 "MONO" H 8472 1775 50  0000 R CNN
-F 2 "4ms-footprints:PJ301M-12" H 8950 1700 50  0001 C CNN
+F 2 "Eurocad:EighthInch_PJ301BM_CC_FIXED" H 8950 1700 50  0001 C CNN
 F 3 "" H 8950 1700 50  0000 C CNN
 	1    8950 1700
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6050 1750 6300 1750
-Text GLabel 6050 3350 0    47   Input ~ 0
-R_INV
-Text GLabel 6050 1750 0    47   Input ~ 0
-L_INV
 Wire Wire Line
 	7050 3100 7100 3100
 $Comp
@@ -896,23 +822,23 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL074 U1
 U 2 1 5E5A24CC
-P 3850 4000
-F 0 "U1" H 4100 4150 50  0000 C CNN
-F 1 "TL074" H 3900 4200 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3800 4100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3900 4200 50  0001 C CNN
-	2    3850 4000
+P 3850 2100
+F 0 "U1" H 4100 2250 50  0000 C CNN
+F 1 "TL074" H 3900 2300 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3800 2200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3900 2300 50  0001 C CNN
+	2    3850 2100
 	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL074 U1
 U 1 1 5E5A1709
-P 3850 2100
-F 0 "U1" H 4050 2200 50  0000 C CNN
-F 1 "TL074" H 3900 2300 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3800 2200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3900 2300 50  0001 C CNN
-	1    3850 2100
+P 3850 4000
+F 0 "U1" H 4050 4100 50  0000 C CNN
+F 1 "TL074" H 3900 4200 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3800 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3900 4200 50  0001 C CNN
+	1    3850 4000
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -1243,49 +1169,15 @@ F 3 "~" H 2950 7250 50  0001 C CNN
 	1    2950 7250
 	1    0    0    -1  
 $EndComp
-$Comp
-L 4ms-power:GND #PWR0103
-U 1 1 5E422051
-P 850 7500
-F 0 "#PWR0103" H 850 7250 50  0001 C CNN
-F 1 "GND" H 855 7327 50  0000 C CNN
-F 2 "" H 850 7500 50  0001 C CNN
-F 3 "" H 850 7500 50  0001 C CNN
-	1    850  7500
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	850  7400 850  7500
+	-2300 4900 -2300 5000
 Wire Wire Line
-	1100 7400 850  7400
+	-2050 4900 -2300 4900
 Wire Wire Line
-	1100 7400 1100 7500
-Connection ~ 1100 7400
+	-2050 4900 -2050 5000
+Connection ~ -2050 4900
 Wire Wire Line
-	1200 7400 1100 7400
-Wire Wire Line
-	1100 7300 1100 7400
-Wire Wire Line
-	1100 7300 1200 7300
-Wire Wire Line
-	1200 7500 1100 7500
-Wire Wire Line
-	1200 7500 1700 7500
-Wire Wire Line
-	1200 7400 1700 7400
-Wire Wire Line
-	1200 7300 1700 7300
-$Comp
-L 4ms-headers:EURO_HEADER_10pin JP1
-U 1 1 5E41EBDD
-P 1450 7250
-F 0 "JP1" H 1450 7500 50  0000 C CNN
-F 1 "2x8 Power" H 1450 6700 50  0000 C CNN
-F 2 "4ms-footprints:Header_2x05_Pitch2.54mm_TH_-12v_Label" H 1550 6700 50  0001 C CNN
-F 3 "" H 1450 6050 50  0001 C CNN
-	1    1450 7250
-	1    0    0    -1  
-$EndComp
+	-2050 4800 -2050 4900
 Text Notes 6300 7250 0    354  ~ 0
 LilMix Main
 Text GLabel -5150 3000 0    50   Input ~ 0
@@ -1426,7 +1318,7 @@ L 4ms-headers:Conn_02x04_Odd_Even JP2
 U 1 1 5E48A6AB
 P -3850 3250
 F 0 "JP2" H -3800 3567 50  0000 C CNN
-F 1 "2x4 Socket" H -3800 3476 50  0000 C CNN
+F 1 "SOCKET" H -3800 3476 50  0000 C CNN
 F 2 "4ms-footprints:Socket_2x4_2.54mm_TH" H -3850 3250 50  0001 C CNN
 F 3 "" H -3850 3250 50  0001 C CNN
 	1    -3850 3250
@@ -1438,7 +1330,7 @@ L 4ms-headers:Conn_02x04_Odd_Even JP3
 U 1 1 5E5857CD
 P -1150 1750
 F 0 "JP3" H -1100 2067 50  0000 C CNN
-F 1 "2x4 Socket" H -1100 1976 50  0000 C CNN
+F 1 "SOCKET" H -1100 1976 50  0000 C CNN
 F 2 "4ms-footprints:Socket_2x4_2.54mm_TH" H -1150 1750 50  0001 C CNN
 F 3 "" H -1150 1750 50  0001 C CNN
 	1    -1150 1750
@@ -1509,117 +1401,31 @@ J3_L_A
 Text GLabel -1700 2150 0    47   Input ~ 0
 J3_R_A
 Wire Wire Line
-	1200 7200 1100 7200
+	-1950 4700 -2050 4700
 Wire Wire Line
-	1100 7200 1100 7050
+	-2050 4700 -2050 4550
 Wire Wire Line
-	1100 7050 1800 7050
+	-2050 4550 -1800 4550
 Wire Wire Line
-	1800 7050 1800 7200
-Connection ~ 1800 7200
+	-1150 4850 -1150 5000
 Wire Wire Line
-	1800 7200 1700 7200
+	-1200 4950 -1200 5100
 Wire Wire Line
-	1800 7600 1800 7750
+	-2050 5250 -2050 5100
 Wire Wire Line
-	1800 7750 1100 7750
+	-2050 5100 -1950 5100
 Wire Wire Line
-	1100 7750 1100 7600
+	-1200 4950 -1100 4950
 Wire Wire Line
-	1100 7600 1200 7600
-Connection ~ 1800 7600
-Wire Wire Line
-	1800 7600 1900 7600
-Wire Wire Line
-	4350 6400 3850 6400
-Wire Wire Line
-	4150 6200 4350 6200
-Wire Wire Line
-	3850 6400 3850 6200
-$Comp
-L power:-12V #PWR0106
-U 1 1 5E5ADB7B
-P 3850 6200
-F 0 "#PWR0106" H 3850 6300 50  0001 C CNN
-F 1 "-12V" H 4000 6250 50  0000 C CNN
-F 2 "" H 3850 6200 50  0001 C CNN
-F 3 "" H 3850 6200 50  0001 C CNN
-	1    3850 6200
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 6200 4150 6050
-$Comp
-L power:+12V #PWR0108
-U 1 1 5E5ADB86
-P 4150 6050
-F 0 "#PWR0108" H 4150 5900 50  0001 C CNN
-F 1 "+12V" H 4300 6100 50  0000 C CNN
-F 2 "" H 4150 6050 50  0001 C CNN
-F 3 "" H 4150 6050 50  0001 C CNN
-	1    4150 6050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L 4ms-headers:Conn_01x03 JP5
-U 1 1 5E5D141C
-P 4550 6300
-F 0 "JP5" H 4630 6342 50  0000 L CNN
-F 1 "Conn_01x03" H 4630 6251 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4550 6300 50  0001 C CNN
-F 3 "" H 4550 6300 50  0001 C CNN
-	1    4550 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4ms-power:GND #PWR0110
-U 1 1 5E64C05E
-P 4250 6300
-F 0 "#PWR0110" H 4250 6050 50  0001 C CNN
-F 1 "GND" V 4250 6100 50  0000 C CNN
-F 2 "" H 4250 6300 50  0001 C CNN
-F 3 "" H 4250 6300 50  0001 C CNN
-	1    4250 6300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4350 6300 4250 6300
-Wire Wire Line
-	4350 5750 3850 5750
+	-1000 5300 -1500 5300
 Wire Wire Line
 	4150 5550 4350 5550
-Wire Wire Line
-	3850 5750 3850 5550
 $Comp
-L power:-12V #PWR0129
-U 1 1 5E69B760
-P 3850 5550
-F 0 "#PWR0129" H 3850 5650 50  0001 C CNN
-F 1 "-12V" H 4000 5600 50  0000 C CNN
-F 2 "" H 3850 5550 50  0001 C CNN
-F 3 "" H 3850 5550 50  0001 C CNN
-	1    3850 5550
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 5550 4150 5400
-$Comp
-L power:+12V #PWR0130
-U 1 1 5E69B76B
-P 4150 5400
-F 0 "#PWR0130" H 4150 5250 50  0001 C CNN
-F 1 "+12V" H 4300 5450 50  0000 C CNN
-F 2 "" H 4150 5400 50  0001 C CNN
-F 3 "" H 4150 5400 50  0001 C CNN
-	1    4150 5400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L 4ms-headers:Conn_01x03 JP4
+L 4ms-headers:Conn_01x03 JP1
 U 1 1 5E69B775
 P 4550 5650
-F 0 "JP4" H 4630 5692 50  0000 L CNN
-F 1 "Conn_01x03" H 4630 5601 50  0000 L CNN
+F 0 "JP1" H 4630 5692 50  0000 L CNN
+F 1 "PINS" H 4630 5601 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4550 5650 50  0001 C CNN
 F 3 "" H 4550 5650 50  0001 C CNN
 	1    4550 5650
@@ -1628,16 +1434,16 @@ $EndComp
 $Comp
 L 4ms-power:GND #PWR0131
 U 1 1 5E69B77F
-P 4250 5650
-F 0 "#PWR0131" H 4250 5400 50  0001 C CNN
-F 1 "GND" V 4250 5450 50  0000 C CNN
-F 2 "" H 4250 5650 50  0001 C CNN
-F 3 "" H 4250 5650 50  0001 C CNN
-	1    4250 5650
-	0    1    1    0   
+P 3750 5650
+F 0 "#PWR0131" H 3750 5400 50  0001 C CNN
+F 1 "GND" V 3750 5450 50  0000 C CNN
+F 2 "" H 3750 5650 50  0001 C CNN
+F 3 "" H 3750 5650 50  0001 C CNN
+	1    3750 5650
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	4350 5650 4250 5650
+	-1250 4500 -1350 4500
 $Comp
 L 4ms-passives:C C11
 U 1 1 5E6EE0E9
@@ -1744,7 +1550,7 @@ Wire Wire Line
 Wire Wire Line
 	-4650 4400 -4650 4950
 Wire Wire Line
-	-1250 4200 -1250 5850
+	-1300 4300 -1300 4850
 $Comp
 L 4ms-passives:C C16
 U 1 1 5ED55C6A
@@ -1762,45 +1568,6 @@ Wire Wire Line
 	-4400 5850 -4300 5850
 Wire Wire Line
 	-4300 5300 -4300 5850
-$Comp
-L 4ms-headers:Conn_01x02 JP6
-U 1 1 5EE41611
-P 4550 4950
-F 0 "JP6" H 4630 4942 50  0000 L CNN
-F 1 "Conn_01x02" H 4630 4851 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4550 4950 50  0001 C CNN
-F 3 "~" H 4550 4950 50  0001 C CNN
-	1    4550 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 4950 4350 4950
-Wire Wire Line
-	4150 4950 4150 4800
-$Comp
-L power:+12V #PWR0132
-U 1 1 5EE433FE
-P 4150 4800
-F 0 "#PWR0132" H 4150 4650 50  0001 C CNN
-F 1 "+12V" H 4300 4850 50  0000 C CNN
-F 2 "" H 4150 4800 50  0001 C CNN
-F 3 "" H 4150 4800 50  0001 C CNN
-	1    4150 4800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L 4ms-power:GND #PWR0133
-U 1 1 5EE43408
-P 4250 5050
-F 0 "#PWR0133" H 4250 4800 50  0001 C CNN
-F 1 "GND" V 4250 4850 50  0000 C CNN
-F 2 "" H 4250 5050 50  0001 C CNN
-F 3 "" H 4250 5050 50  0001 C CNN
-	1    4250 5050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4350 5050 4250 5050
 Wire Wire Line
 	1750 4100 1950 4100
 $Comp
@@ -1911,8 +1678,6 @@ Wire Wire Line
 Wire Wire Line
 	-1300 4850 -1400 4850
 Wire Wire Line
-	-1300 5150 -1300 4850
-Wire Wire Line
 	-1500 4950 -1600 4950
 Wire Wire Line
 	-1500 5050 -1500 4950
@@ -1934,7 +1699,7 @@ Wire Wire Line
 Wire Wire Line
 	-1500 4100 -1500 4800
 Wire Wire Line
-	-2250 4700 -850 4700
+	-2250 4700 -2050 4700
 Wire Wire Line
 	-4050 3350 -4200 3350
 Wire Wire Line
@@ -1949,9 +1714,7 @@ Wire Wire Line
 Connection ~ -4800 3350
 Connection ~ -1500 4800
 Wire Wire Line
-	-1500 4800 -800 4800
-Wire Wire Line
-	-2250 4800 -1500 4800
+	-2250 4800 -2050 4800
 Wire Wire Line
 	-5050 4150 -4450 4150
 Wire Wire Line
@@ -1973,4 +1736,68 @@ Wire Wire Line
 Wire Wire Line
 	-4350 2300 -4750 2300
 Connection ~ -4750 2300
+Connection ~ -2050 4700
+Connection ~ -2050 4800
+Connection ~ -1800 4550
+Wire Wire Line
+	-1800 4550 -1350 4550
+Wire Wire Line
+	-1450 4700 -850 4700
+Connection ~ -1200 4950
+Connection ~ -1400 5100
+Wire Wire Line
+	-1400 5100 -1350 5100
+Wire Wire Line
+	-2050 4900 -500 4900
+Wire Wire Line
+	-2050 4800 -1500 4800
+Wire Wire Line
+	-2050 5000 -1450 5000
+Wire Wire Line
+	-1500 4800 -800 4800
+Text GLabel 4150 5750 0    50   Input ~ 0
++12V_in
+Text GLabel 4150 5550 0    50   Input ~ 0
+-12V_in
+Wire Wire Line
+	3750 5650 4350 5650
+Text GLabel 1900 7100 0    50   Input ~ 0
++12V_in
+Text GLabel 1900 7700 0    50   Input ~ 0
+-12V_in
+Wire Wire Line
+	4150 5750 4350 5750
+Connection ~ -1300 4850
+Wire Wire Line
+	-1700 5350 -1700 5450
+Wire Wire Line
+	-1750 5450 -1700 5450
+Text GLabel 6500 3100 0    47   Input ~ 0
+R_INV
+Wire Wire Line
+	6500 3100 6750 3100
+Wire Wire Line
+	-1800 5250 -1800 5350
+Wire Wire Line
+	-1650 5200 -1650 5300
+Wire Wire Line
+	-1650 5500 -1550 5500
+Text GLabel 6500 1500 0    47   Input ~ 0
+L_INV
+Wire Wire Line
+	6500 1500 6750 1500
+Wire Wire Line
+	-1200 4400 -1000 4400
+Wire Wire Line
+	-1000 4400 -1000 4450
+Wire Wire Line
+	-1300 4850 -1300 5950
+Connection ~ -1700 5450
+Wire Wire Line
+	-1700 5450 -1450 5450
+Connection ~ -1800 5250
+Wire Wire Line
+	-1800 5250 -2050 5250
+Wire Wire Line
+	-1800 5250 -1350 5250
 $EndSCHEMATC
