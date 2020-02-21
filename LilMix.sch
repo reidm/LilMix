@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:LilMix-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -47,12 +46,12 @@ Wire Wire Line
 $Comp
 L 4ms-mech:JACK-STEREO-MINI J3
 U 1 1 5ECFAA7B
-P -6850 2450
-F 0 "J3" H -6905 2720 45  0000 C CNN
-F 1 "STEREO" H -6905 2636 45  0000 C CNN
-F 2 "Eurocad:STPX-3501-3C-1" H -6820 2600 20  0001 C CNN
-F 3 "" H -6850 2450 60  0001 C CNN
-	1    -6850 2450
+P -7000 2600
+F 0 "J3" H -7055 2870 45  0000 C CNN
+F 1 "STEREO" H -7055 2786 45  0000 C CNN
+F 2 "Eurocad:STPX-3501-3C-1" H -6970 2750 20  0001 C CNN
+F 3 "" H -7000 2600 60  0001 C CNN
+	1    -7000 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -271,7 +270,7 @@ F 3 "" H 4450 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-4750 2100 -4850 2100
+	-4750 2300 -4850 2300
 Wire Wire Line
 	-5850 5050 -5750 5050
 Text GLabel -5750 5050 2    47   Input ~ 0
@@ -887,7 +886,7 @@ F 3 "" H 1600 1250 50  0001 C CNN
 	1    1600 1250
 	0    1    -1   0   
 $EndComp
-Text GLabel -4850 2100 0    47   Input ~ 0
+Text GLabel -4850 2300 0    47   Input ~ 0
 J3_L_B
 Text GLabel -5100 5950 2    47   Input ~ 0
 J2_INSERT
@@ -1207,7 +1206,7 @@ J2_L_A
 Wire Wire Line
 	1000 2200 1450 2200
 Wire Wire Line
-	-2650 4600 -1650 4600
+	-2650 4600 -1850 4600
 Wire Wire Line
 	-6400 4400 -6250 4400
 Text GLabel -6250 4400 2    50   Input ~ 0
@@ -1252,10 +1251,10 @@ Wire Wire Line
 Text GLabel -4450 5300 0    50   Input ~ 0
 J2_R_B
 Wire Wire Line
-	-1850 4350 -1850 5200
+	-1850 4350 -1850 4400
 Wire Wire Line
-	-4650 2450 -4750 2450
-Text GLabel -4750 2450 0    47   Input ~ 0
+	-4650 1600 -4750 1600
+Text GLabel -4750 1600 0    47   Input ~ 0
 J3_R_B
 Text GLabel -2800 750  2    50   Input ~ 0
 J2_L_B
@@ -1279,10 +1278,10 @@ Wire Wire Line
 	1000 5050 1450 5050
 Wire Wire Line
 	1000 6000 1450 6000
-Text GLabel -3000 3150 2    50   Input ~ 0
+Text GLabel -3200 3150 2    50   Input ~ 0
 GND_B
 Wire Wire Line
-	-3150 3150 -3000 3150
+	-3350 3150 -3200 3150
 Text Notes -4050 7400 0    354  ~ 0
 LilMix External
 Text GLabel -3150 1050 0    47   Input ~ 0
@@ -1299,18 +1298,16 @@ Text GLabel 1000 6000 0    50   Input ~ 0
 J3_R_A
 Wire Wire Line
 	-2050 4300 -1650 4300
-Wire Wire Line
-	-1650 4400 -2250 4400
-Text GLabel -7100 2650 2    50   Input ~ 0
+Text GLabel -7250 2800 2    50   Input ~ 0
 GND_B
 Wire Wire Line
-	-7250 2650 -7100 2650
+	-7400 2800 -7250 2800
 Wire Wire Line
-	-3550 3250 -3150 3250
+	-3550 3250 -3350 3250
 Wire Wire Line
-	-3550 3150 -3150 3150
+	-3550 3150 -3350 3150
 Wire Wire Line
-	-3150 3150 -3150 3250
+	-3350 3150 -3350 3250
 Wire Wire Line
 	-7050 3350 -6550 3350
 $Comp
@@ -1324,7 +1321,7 @@ F 3 "" H -3850 3250 50  0001 C CNN
 	1    -3850 3250
 	1    0    0    -1  
 $EndComp
-Connection ~ -3150 3150
+Connection ~ -3350 3150
 $Comp
 L 4ms-headers:Conn_02x04_Odd_Even JP3
 U 1 1 5E5857CD
@@ -1447,49 +1444,35 @@ Wire Wire Line
 $Comp
 L 4ms-passives:C C11
 U 1 1 5E6EE0E9
-P -5700 2300
-F 0 "C11" V -5952 2300 50  0000 C CNN
-F 1 "1uF" V -5861 2300 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H -5662 2150 50  0001 C CNN
-F 3 "" H -5700 2300 50  0001 C CNN
-	1    -5700 2300
+P -5700 2500
+F 0 "C11" V -5550 2500 50  0000 C CNN
+F 1 "1uF" V -5450 2500 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H -5662 2350 50  0001 C CNN
+F 3 "" H -5700 2500 50  0001 C CNN
+	1    -5700 2500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	-4650 2450 -4650 2600
+	-4650 1600 -4650 1750
 $Comp
 L 4ms-passives:C C12
 U 1 1 5E77E136
-P -5700 2600
-F 0 "C12" V -5952 2600 50  0000 C CNN
-F 1 "1uF" V -5861 2600 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H -5662 2450 50  0001 C CNN
-F 3 "" H -5700 2600 50  0001 C CNN
-	1    -5700 2600
+P -5700 1750
+F 0 "C12" V -5952 1750 50  0000 C CNN
+F 1 "1uF" V -5861 1750 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H -5662 1600 50  0001 C CNN
+F 3 "" H -5700 1750 50  0001 C CNN
+	1    -5700 1750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	-6550 2350 -6100 2350
+	-5550 2500 -4750 2500
 Wire Wire Line
-	-6100 2350 -6100 2300
-Wire Wire Line
-	-6100 2300 -5850 2300
-Wire Wire Line
-	-5550 2300 -4750 2300
-Wire Wire Line
-	-4750 2300 -4750 2100
-Wire Wire Line
-	-2000 4750 -2300 4750
+	-4750 2500 -4750 2300
 Wire Wire Line
 	-1400 4000 -1400 4850
 Wire Wire Line
-	-6550 2500 -6100 2500
-Wire Wire Line
-	-6100 2500 -6100 2600
-Wire Wire Line
-	-6100 2600 -5850 2600
-Wire Wire Line
-	-5550 2600 -4650 2600
+	-5550 1750 -4650 1750
 Wire Wire Line
 	-1600 4300 -1600 4950
 Wire Wire Line
@@ -1697,7 +1680,7 @@ Connection ~ -4650 4950
 Wire Wire Line
 	-4050 3450 -4300 3450
 Wire Wire Line
-	-1500 4100 -1500 4800
+	-1500 4100 -1500 4400
 Wire Wire Line
 	-2250 4700 -2050 4700
 Wire Wire Line
@@ -1707,8 +1690,6 @@ Wire Wire Line
 Wire Wire Line
 	-4200 5850 -4300 5850
 Connection ~ -4300 5850
-Wire Wire Line
-	-4800 3350 -4300 3350
 Wire Wire Line
 	-4300 3350 -4300 3450
 Connection ~ -4800 3350
@@ -1723,24 +1704,22 @@ Wire Wire Line
 	-4450 3250 -4050 3250
 Connection ~ -5050 4150
 Wire Wire Line
-	-4650 2600 -2300 2600
+	-4650 1750 -2750 1750
 Wire Wire Line
-	-2300 2600 -2300 3350
-Wire Wire Line
-	-2300 3350 -3550 3350
-Connection ~ -4650 2600
+	-1250 4900 -1250 5650
+Connection ~ -4650 1750
 Wire Wire Line
 	-4050 3150 -4350 3150
 Wire Wire Line
-	-4350 3150 -4350 2300
+	-1850 4600 -1850 4400
 Wire Wire Line
-	-4350 2300 -4750 2300
-Connection ~ -4750 2300
+	-4350 2500 -4750 2500
+Connection ~ -4750 2500
 Connection ~ -2050 4700
 Connection ~ -2050 4800
 Connection ~ -1800 4550
 Wire Wire Line
-	-1800 4550 -1350 4550
+	-1800 4550 -1450 4550
 Wire Wire Line
 	-1450 4700 -850 4700
 Connection ~ -1200 4950
@@ -1748,7 +1727,7 @@ Connection ~ -1400 5100
 Wire Wire Line
 	-1400 5100 -1350 5100
 Wire Wire Line
-	-2050 4900 -500 4900
+	-2050 4900 -1250 4900
 Wire Wire Line
 	-2050 4800 -1500 4800
 Wire Wire Line
@@ -1791,7 +1770,7 @@ Wire Wire Line
 Wire Wire Line
 	-1000 4400 -1000 4450
 Wire Wire Line
-	-1300 4850 -1300 5950
+	-1300 4850 -1300 5350
 Connection ~ -1700 5450
 Wire Wire Line
 	-1700 5450 -1450 5450
@@ -1800,4 +1779,75 @@ Wire Wire Line
 	-1800 5250 -2050 5250
 Wire Wire Line
 	-1800 5250 -1350 5250
+$Comp
+L eurocad:PJ301M-12 J7
+U 1 1 5E5614B6
+P -7000 1850
+F 0 "J7" H -7478 1834 50  0000 R CNN
+F 1 "MONO" H -7478 1925 50  0000 R CNN
+F 2 "4ms-footprints:PJ301M-12" H -7000 1850 50  0001 C CNN
+F 3 "" H -7000 1850 50  0000 C CNN
+	1    -7000 1850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	-2750 3350 -2750 1750
+Wire Wire Line
+	-2050 5050 -2200 5050
+Connection ~ -1500 4400
+Connection ~ -1250 4900
+Wire Wire Line
+	-1250 4900 -500 4900
+Wire Wire Line
+	-2250 4400 -1850 4400
+Text GLabel -6400 1850 2    47   Input ~ 0
+J7_INSERT
+Wire Wire Line
+	-1450 4550 -1450 4700
+Wire Wire Line
+	-4350 3150 -4350 2500
+Connection ~ -1450 4550
+Wire Wire Line
+	-1450 4550 -1350 4550
+Connection ~ -1450 4700
+Wire Wire Line
+	-1450 4700 -1450 4750
+Wire Wire Line
+	-6700 2500 -5850 2500
+Wire Wire Line
+	-6550 1850 -6400 1850
+Text GLabel -6500 2650 2    47   Input ~ 0
+J7_INSERT
+Wire Wire Line
+	-6700 2650 -6500 2650
+Wire Wire Line
+	-6550 1750 -5850 1750
+Connection ~ -1800 4750
+Wire Wire Line
+	-1800 4750 -1700 4750
+Wire Wire Line
+	-2300 4750 -1800 4750
+Wire Wire Line
+	-1500 4400 -1500 4800
+Wire Wire Line
+	-1450 5350 -1300 5350
+Wire Wire Line
+	-2750 3350 -3550 3350
+Connection ~ -1300 5350
+Wire Wire Line
+	-1300 5350 -1300 5950
+Text GLabel -6400 2000 2    50   Input ~ 0
+GND_B
+Wire Wire Line
+	-6550 2000 -6400 2000
+Connection ~ -1850 4400
+Wire Wire Line
+	-1850 4400 -1500 4400
+Connection ~ -1850 4600
+Wire Wire Line
+	-1850 4600 -1650 4600
+Wire Wire Line
+	-1850 4600 -1850 5200
+Wire Wire Line
+	-4800 3350 -4300 3350
 $EndSCHEMATC
