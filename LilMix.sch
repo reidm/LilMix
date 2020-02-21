@@ -891,10 +891,8 @@ J3_L_B
 Text GLabel -5100 5950 2    47   Input ~ 0
 J2_INSERT
 Wire Wire Line
-	-6550 3150 -6550 3350
-Wire Wire Line
-	-6650 3150 -6550 3150
-Text GLabel -6650 3150 0    47   Input ~ 0
+	-6900 3450 -7050 3450
+Text GLabel -6900 3450 2    47   Input ~ 0
 J1_INSERT
 Wire Wire Line
 	2450 4850 2450 3900
@@ -1308,8 +1306,6 @@ Wire Wire Line
 	-3550 3150 -3350 3150
 Wire Wire Line
 	-3350 3150 -3350 3250
-Wire Wire Line
-	-7050 3350 -6550 3350
 $Comp
 L 4ms-headers:Conn_02x04_Odd_Even JP2
 U 1 1 5E48A6AB
@@ -1490,9 +1486,6 @@ F 3 "" H -5700 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	-4800 3350 -5550 3350
-Wire Wire Line
-	-5850 3350 -6550 3350
-Connection ~ -6550 3350
 $Comp
 L 4ms-passives:C C14
 U 1 1 5EA7A2EC
@@ -1727,8 +1720,6 @@ Connection ~ -1400 5100
 Wire Wire Line
 	-1400 5100 -1350 5100
 Wire Wire Line
-	-2050 4900 -1250 4900
-Wire Wire Line
 	-2050 4800 -1500 4800
 Wire Wire Line
 	-2050 5000 -1450 5000
@@ -1847,7 +1838,13 @@ Connection ~ -1850 4600
 Wire Wire Line
 	-1850 4600 -1650 4600
 Wire Wire Line
+	-4800 3350 -4300 3350
+Wire Wire Line
+	-7050 3350 -5850 3350
+Wire Wire Line
 	-1850 4600 -1850 5200
 Wire Wire Line
-	-4800 3350 -4300 3350
+	-2050 4900 -1250 4900
+Wire Wire Line
+	-1750 4950 -1750 5150
 $EndSCHEMATC
