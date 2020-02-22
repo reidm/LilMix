@@ -891,8 +891,8 @@ J3_L_B
 Text GLabel -5100 5950 2    47   Input ~ 0
 J2_INSERT
 Wire Wire Line
-	-6900 3450 -7050 3450
-Text GLabel -6900 3450 2    47   Input ~ 0
+	-6300 3150 -6150 3150
+Text GLabel -6300 3150 0    47   Input ~ 0
 J1_INSERT
 Wire Wire Line
 	2450 4850 2450 3900
@@ -1770,17 +1770,6 @@ Wire Wire Line
 	-1800 5250 -2050 5250
 Wire Wire Line
 	-1800 5250 -1350 5250
-$Comp
-L eurocad:PJ301M-12 J7
-U 1 1 5E5614B6
-P -7000 1850
-F 0 "J7" H -7478 1834 50  0000 R CNN
-F 1 "MONO" H -7478 1925 50  0000 R CNN
-F 2 "4ms-footprints:PJ301M-12" H -7000 1850 50  0001 C CNN
-F 3 "" H -7000 1850 50  0000 C CNN
-	1    -7000 1850
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	-2750 3350 -2750 1750
 Wire Wire Line
@@ -1791,8 +1780,6 @@ Wire Wire Line
 	-1250 4900 -500 4900
 Wire Wire Line
 	-2250 4400 -1850 4400
-Text GLabel -6400 1850 2    47   Input ~ 0
-J7_INSERT
 Wire Wire Line
 	-1450 4550 -1450 4700
 Wire Wire Line
@@ -1805,14 +1792,6 @@ Wire Wire Line
 	-1450 4700 -1450 4750
 Wire Wire Line
 	-6700 2500 -5850 2500
-Wire Wire Line
-	-6550 1850 -6400 1850
-Text GLabel -6500 2650 2    47   Input ~ 0
-J7_INSERT
-Wire Wire Line
-	-6700 2650 -6500 2650
-Wire Wire Line
-	-6550 1750 -5850 1750
 Connection ~ -1800 4750
 Wire Wire Line
 	-1800 4750 -1700 4750
@@ -1827,10 +1806,6 @@ Wire Wire Line
 Connection ~ -1300 5350
 Wire Wire Line
 	-1300 5350 -1300 5950
-Text GLabel -6400 2000 2    50   Input ~ 0
-GND_B
-Wire Wire Line
-	-6550 2000 -6400 2000
 Connection ~ -1850 4400
 Wire Wire Line
 	-1850 4400 -1500 4400
@@ -1840,11 +1815,41 @@ Wire Wire Line
 Wire Wire Line
 	-4800 3350 -4300 3350
 Wire Wire Line
-	-7050 3350 -5850 3350
+	-7050 3350 -6150 3350
 Wire Wire Line
 	-1850 4600 -1850 5200
 Wire Wire Line
 	-2050 4900 -1250 4900
 Wire Wire Line
 	-1750 4950 -1750 5150
+Wire Wire Line
+	-6700 2650 -6500 2650
+Text GLabel -6500 2650 2    47   Input ~ 0
+J7_INSERT
+Wire Wire Line
+	-6550 2000 -6400 2000
+Text GLabel -6400 2000 2    50   Input ~ 0
+GND_B
+Wire Wire Line
+	-6550 1750 -5850 1750
+Wire Wire Line
+	-6550 1850 -6400 1850
+Text GLabel -6400 1850 2    47   Input ~ 0
+J7_INSERT
+$Comp
+L eurocad:PJ301M-12 J7
+U 1 1 5E5614B6
+P -7000 1850
+F 0 "J7" H -7478 1834 50  0000 R CNN
+F 1 "MONO" H -7478 1925 50  0000 R CNN
+F 2 "4ms-footprints:PJ301M-12" H -7000 1850 50  0001 C CNN
+F 3 "" H -7000 1850 50  0000 C CNN
+	1    -7000 1850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	-6150 3150 -6150 3350
+Connection ~ -6150 3350
+Wire Wire Line
+	-6150 3350 -5850 3350
 $EndSCHEMATC
