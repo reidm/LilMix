@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:LilMix-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -1453,12 +1454,12 @@ Wire Wire Line
 $Comp
 L 4ms-passives:C C12
 U 1 1 5E77E136
-P -5700 1750
-F 0 "C12" V -5952 1750 50  0000 C CNN
-F 1 "1uF" V -5861 1750 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H -5662 1600 50  0001 C CNN
-F 3 "" H -5700 1750 50  0001 C CNN
-	1    -5700 1750
+P -5300 1750
+F 0 "C12" V -5552 1750 50  0000 C CNN
+F 1 "1uF" V -5461 1750 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H -5262 1600 50  0001 C CNN
+F 3 "" H -5300 1750 50  0001 C CNN
+	1    -5300 1750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1468,7 +1469,7 @@ Wire Wire Line
 Wire Wire Line
 	-1400 4000 -1400 4850
 Wire Wire Line
-	-5550 1750 -4650 1750
+	-5150 1750 -4650 1750
 Wire Wire Line
 	-1600 4300 -1600 4950
 Wire Wire Line
@@ -1791,7 +1792,7 @@ Connection ~ -1450 4700
 Wire Wire Line
 	-1450 4700 -1450 4750
 Wire Wire Line
-	-6700 2500 -5850 2500
+	-6700 2500 -6600 2500
 Connection ~ -1800 4750
 Wire Wire Line
 	-1800 4750 -1700 4750
@@ -1825,17 +1826,15 @@ Wire Wire Line
 Wire Wire Line
 	-6700 2650 -6500 2650
 Text GLabel -6500 2650 2    47   Input ~ 0
-J7_INSERT
+J3_R_INSERT
 Wire Wire Line
 	-6550 2000 -6400 2000
 Text GLabel -6400 2000 2    50   Input ~ 0
 GND_B
 Wire Wire Line
-	-6550 1750 -5850 1750
-Wire Wire Line
-	-6550 1850 -6400 1850
-Text GLabel -6400 1850 2    47   Input ~ 0
-J7_INSERT
+	-7050 1350 -6900 1350
+Text GLabel -6900 1350 2    47   Input ~ 0
+J3_R_INSERT
 $Comp
 L eurocad:PJ301M-12 J7
 U 1 1 5E5614B6
@@ -1852,4 +1851,36 @@ Wire Wire Line
 Connection ~ -6150 3350
 Wire Wire Line
 	-6150 3350 -5850 3350
+Wire Wire Line
+	-6550 1750 -5450 1750
+Wire Wire Line
+	-7050 1250 -6100 1250
+Wire Wire Line
+	-6100 1250 -6100 1850
+Wire Wire Line
+	-6550 1850 -6100 1850
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5E85B730
+P -7250 1250
+F 0 "J1" H -7332 1567 50  0000 C CNN
+F 1 "Conn_01x03" H -7332 1476 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H -7250 1250 50  0001 C CNN
+F 3 "~" H -7250 1250 50  0001 C CNN
+	1    -7250 1250
+	-1   0    0    -1  
+$EndComp
+Text GLabel -6500 2300 2    47   Input ~ 0
+J3_L_INSERT
+Wire Wire Line
+	-6600 2300 -6600 2500
+Wire Wire Line
+	-6600 2300 -6500 2300
+Connection ~ -6600 2500
+Wire Wire Line
+	-6600 2500 -5850 2500
+Text GLabel -6900 1150 2    47   Input ~ 0
+J3_L_INSERT
+Wire Wire Line
+	-7050 1150 -6900 1150
 $EndSCHEMATC
