@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.25)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
     (user_trace_width 0.5)
@@ -288,8 +288,8 @@
     )
   )
 
-  (module Eurocad:STPX-3501-3C-1 (layer F.Cu) (tedit 5E47773A) (tstamp 5E5620E2)
-    (at 141.256 123.209)
+  (module Eurocad:STPX-3501-3C-1 (layer F.Cu) (tedit 5E47773A) (tstamp 5E722CE6)
+    (at 141.24 123.19)
     (path /5ECFAA7B)
     (fp_text reference J3 (at 3.8354 -3.9116) (layer F.SilkS)
       (effects (font (size 1.2065 1.2065) (thickness 0.1524)) (justify left bottom))
@@ -2444,7 +2444,7 @@
     )
   )
 
-  (gr_circle (center 141.236602 123.235) (end 142.036602 122.735) (layer Edge.Cuts) (width 0.05) (tstamp 5E562369))
+  (gr_circle (center 141.24 123.203398) (end 142.04 122.703398) (layer Edge.Cuts) (width 0.05) (tstamp 5E562369))
   (gr_circle (center 121.53 132.46) (end 122.33 131.96) (layer Edge.Cuts) (width 0.05) (tstamp 5E56236C))
   (gr_line (start 85.75 118.64) (end 157.58 118.57) (layer Edge.Cuts) (width 0.05) (tstamp 5E562366))
   (dimension 73.250003 (width 0.12) (layer F.SilkS) (tstamp 5E50B621)
@@ -2504,7 +2504,7 @@
     (arrow2b (pts (xy 73.425 136.99) (xy 72.838579 135.863496)))
   )
   (dimension 71.84 (width 0.12) (layer F.SilkS) (tstamp 5E56219C)
-    (gr_text "71.840 mm" (at 121.68 153.069018) (layer F.SilkS) (tstamp 5E56219D)
+    (gr_text "71.840 mm" (at 121.68 153.069018) (layer F.SilkS) (tstamp 5E56219C)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 157.6 139.6) (xy 157.6 152.385439)))
@@ -3046,7 +3046,6 @@
   (segment (start 145.603802 134.84) (end 151.83 134.84) (width 0.3) (layer F.Cu) (net 44))
   (segment (start 154.469 132.201) (end 154.469 130.124) (width 0.3) (layer F.Cu) (net 44))
   (segment (start 151.83 134.84) (end 154.469 132.201) (width 0.3) (layer F.Cu) (net 44))
-  (segment (start 136.049 123.209) (end 137.0142 123.209) (width 0.3) (layer B.Cu) (net 52) (tstamp 5E5622AC))
   (segment (start 91.18 131.18) (end 93.93 128.43) (width 0.3) (layer F.Cu) (net 45) (tstamp 5E562297))
   (segment (start 93.93 128.43) (end 93.93 122.91) (width 0.3) (layer F.Cu) (net 45) (tstamp 5E562294))
   (segment (start 95.974 120.866) (end 111.807 120.866) (width 0.3) (layer F.Cu) (net 45) (tstamp 5E562291))
@@ -3071,6 +3070,7 @@
   (segment (start 88.5 78.2) (end 87.2 76.9) (width 0.25) (layer B.Cu) (net 50) (tstamp 5E50BAD6))
   (segment (start 87.2 76.9) (end 86.5 76.9) (width 0.25) (layer B.Cu) (net 50) (tstamp 5E50BAD3))
   (segment (start 88.5 86.3) (end 88.5 78.2) (width 0.25) (layer B.Cu) (net 50) (tstamp 5E50BAD9))
+  (segment (start 136.049 123.209) (end 137.0142 123.209) (width 0.3) (layer B.Cu) (net 52) (tstamp 5E5622AC))
   (segment (start 137.1142 123.209) (end 138.48 124.5748) (width 0.25) (layer B.Cu) (net 52))
   (segment (start 149.68 133.46) (end 149.68 130.44) (width 0.25) (layer B.Cu) (net 52))
   (segment (start 148.24 134.9) (end 149.68 133.46) (width 0.25) (layer B.Cu) (net 52))
