@@ -1,4 +1,977 @@
-17311712019646392
+17508516971504213
+4ms-footprints
+4ms-logo-1
+
+
+0
+0
+0
+4ms-footprints
+4ms-logo-4
+
+
+0
+0
+0
+4ms-footprints
+4ms-logo-inv
+
+
+0
+0
+0
+4ms-footprints
+4ms-logo-inv-2
+
+
+0
+0
+0
+4ms-footprints
+4ms-logo-inv-3
+
+
+0
+0
+0
+4ms-footprints
+4ms_Logo_Small
+
+
+0
+0
+0
+4ms-footprints
+4ms_Logo_Small_Inv
+
+
+0
+0
+0
+4ms-footprints
+16MM-RV16AF-4A
+
+
+0
+3
+3
+4ms-footprints
+16MM-RV16AF-4A-21DET
+
+POT
+0
+3
+3
+4ms-footprints
+16MM-RV16AF-4A-CTRDET
+
+POT POTENTIOMETER
+0
+3
+3
+4ms-footprints
+16MM-RV16AF-4A-NODET
+
+POT POTENTIOMETER
+0
+3
+3
+4ms-footprints
+Audio_Mod_Header_1x03
+Through hole pin header
+pin header
+0
+3
+3
+4ms-footprints
+Audio_Mod_Header_1x03_INS
+Through hole pin header
+pin header
+0
+3
+3
+4ms-footprints
+Audio_Mod_Header_1x03_OUTS
+Through hole pin header
+pin header
+0
+3
+3
+4ms-footprints
+BARRELJACK-PJ064
+
+
+0
+3
+3
+4ms-footprints
+BUTTON-LED-PB61303
+
+
+0
+8
+8
+4ms-footprints
+BUTTON-TACT-PTS540
+
+
+0
+4
+4
+4ms-footprints
+BUTTON-TACT-SKQG
+
+
+0
+4
+4
+4ms-footprints
+C0603
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+2
+2
+4ms-footprints
+C0805
+C0805
+
+0
+2
+2
+4ms-footprints
+C1206
+C1206
+
+0
+2
+2
+4ms-footprints
+COIL_5030
+
+
+0
+2
+2
+4ms-footprints
+COIL_6045
+
+
+0
+2
+2
+4ms-footprints
+COIL_SRP1040
+
+
+0
+2
+2
+4ms-footprints
+CONN-2x10-SMT-127
+
+
+0
+20
+20
+4ms-footprints
+CP_Elec_5x5.3
+SMT capacitor, aluminium electrolytic, 5x5.3
+
+0
+2
+2
+4ms-footprints
+CP_Radial_NP_D6.3mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
+0
+2
+2
+4ms-footprints
+CP_Tantalum_Case-C_EIA-6032-28_Reflow
+Tantalum capacitor, Case C, EIA 6032-28, 6.0x3.2x2.5mm, Reflow soldering footprint
+capacitor tantalum smd
+0
+2
+2
+4ms-footprints
+Cap_Ceramic_TH
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 7mm width 2.5mm Capacitor
+0
+2
+2
+4ms-footprints
+Cap_Electrolytic_TH
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
+0
+2
+2
+4ms-footprints
+Crystal_16MHz_THT_2.54mm
+
+
+0
+2
+2
+4ms-footprints
+Crystal_20MHz_THT_2.54mm
+
+
+0
+2
+2
+4ms-footprints
+DIP-14_W7.62mm
+14-lead dip package, row spacing 7.62 mm (300 mils)
+DIL DIP PDIP 2.54mm 7.62mm 300mil
+0
+14
+14
+4ms-footprints
+DIP-20_W7.62mm
+20-lead dip package, row spacing 7.62 mm (300 mils)
+DIL DIP PDIP 2.54mm 7.62mm 300mil
+0
+20
+20
+4ms-footprints
+DIP-28_W7.62mm
+28-lead dip package, row spacing 7.62 mm (300 mils)
+DIL DIP PDIP 2.54mm 7.62mm 300mil
+0
+28
+28
+4ms-footprints
+DIP20_ATTINY2313A_TH
+20-lead dip package, row spacing 7.62 mm (300 mils), Socket
+DIL DIP PDIP 2.54mm 7.62mm 300mil Socket
+0
+20
+20
+4ms-footprints
+DIP_8pin_TL072_TH
+8-lead dip package, row spacing 7.62 mm (300 mils)
+DIL DIP PDIP 2.54mm 7.62mm 300mil
+0
+8
+8
+4ms-footprints
+DIP_8pin_TL082_TH
+8-lead dip package, row spacing 7.62 mm (300 mils)
+DIL DIP PDIP 2.54mm 7.62mm 300mil
+0
+8
+8
+4ms-footprints
+DPDT_Toggle_108-2MD1T2B3M1QE-EVX
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+4ms-footprints
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+4ms-footprints
+Diode_BAT-85S_TH
+D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf
+D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm
+0
+2
+2
+4ms-footprints
+Euro_Header_10-pin_TH
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+4ms-footprints
+FA-238
+
+
+0
+4
+4
+4ms-footprints
+FA-238-Pins1and2diag
+
+
+0
+4
+4
+4ms-footprints
+Ferrite_Bead_TH
+Resitance 3 pas
+R
+0
+2
+2
+4ms-footprints
+GNDstitchVia
+
+
+0
+1
+1
+4ms-footprints
+HEADER-1X2-TH
+
+
+0
+2
+2
+4ms-footprints
+HEADER-2X8-TH
+
+
+0
+16
+16
+4ms-footprints
+HEADER-2X8-TH-SHROUDED
+
+
+0
+16
+16
+4ms-footprints
+HEADER-2X8-TH_eagle_pinout
+
+
+0
+16
+16
+4ms-footprints
+HTSSOP-20-EP_4.4x6.5mm_Pitch0.65mm
+20-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+21
+21
+4ms-footprints
+Header_2x05_Pitch2.54mm_TH_-12v_Label
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+4ms-footprints
+ISP_Header_2x3_2.54mm_TH
+Through hole straight socket strip, 2x03, 2.54mm pitch, double rows
+Through hole socket strip THT 2x03 2.54mm double row
+0
+6
+6
+4ms-footprints
+J-LINK_6PIN_NEEDLE_ADAPTER
+
+J-LINK SEGGER NEEDLE PROGRAMMER
+0
+6
+6
+4ms-footprints
+J-LINK_10PIN_NEEDLE_ADAPTER
+
+
+0
+10
+10
+4ms-footprints
+JUMPER_SMD_1x2
+SOLDER JUMPER
+SOLDER JUMPER
+0
+2
+2
+4ms-footprints
+JUMPER_SMD_1x3
+SOLDER JUMPER
+SOLDER JUMPER
+0
+3
+3
+4ms-footprints
+LDR_SWASH
+Resistor, LDR 10x8.5mm
+Resistor LDR10.8.5mm
+0
+2
+2
+4ms-footprints
+LED-3MM-SQUARE-ANODE
+LED 3mm round vertical
+LED  3mm round vertical
+0
+2
+2
+4ms-footprints
+LED-C1-A2-3MM-VERT
+LED 3mm round vertical
+LED  3mm round vertical
+0
+2
+2
+4ms-footprints
+LED-PLCC4
+
+
+0
+4
+4
+4ms-footprints
+LED_Dual_3pin_3mm
+LED, diameter 3.0mm, 2 pins, diameter 3.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-3VSURKCGKC(Ver.8A).pdf
+LED diameter 3.0mm 2 pins diameter 3.0mm 3 pins
+0
+3
+3
+4ms-footprints
+LED_Swash
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins
+0
+2
+2
+4ms-footprints
+LQFP-144_20x20mm_Pitch0.5mm
+144-Lead Plastic Low Profile Quad Flatpack (PL) - 20x20x1.40 mm Body [LQFP], 2.00 mm Footprint (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.5
+0
+144
+144
+4ms-footprints
+LQFP-144_ARM_20x20mm_Pitch0.5mm
+144-Lead Plastic Low Profile Quad Flatpack (PL) - 20x20x1.40 mm Body [LQFP], 2.00 mm Footprint (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.5
+0
+144
+144
+4ms-footprints
+MICROSD-YAMAICHI-PJS-VERT
+https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf
+MICROSD SDCARD
+0
+10
+10
+4ms-footprints
+MountingHole_2-56
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+0
+1
+1
+4ms-footprints
+PAD-06
+
+
+0
+1
+1
+4ms-footprints
+PAD-10
+
+
+0
+1
+1
+4ms-footprints
+PIN_HEADER_1x4_2.54mm_TH
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+4ms-footprints
+PIN_HEADER_2x4_2.54mm_TH
+Through hole straight socket strip, 2x04, 2.54mm pitch, double rows
+Through hole socket strip THT 2x04 2.54mm double row
+0
+8
+8
+4ms-footprints
+PJ301M-12
+
+
+0
+3
+3
+4ms-footprints
+PJ366ST
+
+
+0
+3
+3
+4ms-footprints
+POT-9MM-ALPHA
+
+
+0
+5
+5
+4ms-footprints
+POT-9MM-KNURL
+
+
+0
+5
+5
+4ms-footprints
+POT-SLIDER-LED-ALPHA-RA2045F-20
+
+
+0
+6
+6
+4ms-footprints
+Pin_Header_10-pin_TH
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+4ms-footprints
+Pin_Header_Straight_1x03
+Through hole pin header
+pin header
+0
+3
+3
+4ms-footprints
+Pin_Header_Straight_1x04_Pitch2.54mm
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+4ms-footprints
+Pin_Header_Straight_1x06
+Through hole pin header
+pin header
+0
+6
+6
+4ms-footprints
+Pin_Header_Straight_1x06_small1x2
+Through hole pin header
+pin header
+0
+6
+6
+4ms-footprints
+Pin_Header_Straight_2x03_Pitch2.54mm
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+4ms-footprints
+Pin_Header_Straight_2x04
+Through hole pin header
+pin header
+0
+8
+8
+4ms-footprints
+Pin_Header_Straight_2x04_Pitch2.54mm
+Through hole straight pin header, 2x04, 2.54mm pitch, double rows
+Through hole pin header THT 2x04 2.54mm double row
+0
+8
+8
+4ms-footprints
+Pin_Header_Straight_2x05_Pitch2.54mm
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+4ms-footprints
+Pin_Header_Straight_2x08_Pitch2.54mm_TH
+Through hole straight pin header, 2x08, 2.54mm pitch, double rows
+Through hole pin header THT 2x08 2.54mm double row
+0
+16
+16
+4ms-footprints
+Pin_Header_Straight_ReverseSide_2x04_Pitch2.54mm
+Through hole straight pin header, 2x04, 2.54mm pitch, double rows
+Through hole pin header THT 2x04 2.54mm double row
+0
+8
+8
+4ms-footprints
+PowerPAD-8
+8-Lead Thermally Enhanced Plastic Small Outline (SE) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+12
+9
+4ms-footprints
+R0603
+Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0603
+0
+2
+2
+4ms-footprints
+RECOM-78E-DCDC
+RECOM R-78E-0.5 DC/DC converter
+
+0
+3
+3
+4ms-footprints
+RECOM-DCDC
+RECOM R-78E-0.5 DC/DC converter
+
+0
+3
+3
+4ms-footprints
+RGB-SPST-LED-TC002
+
+
+0
+8
+8
+4ms-footprints
+RGB_ROTARY_ENCODER
+
+
+0
+10
+9
+4ms-footprints
+ROTENC-12MM-BUT
+
+
+0
+7
+6
+4ms-footprints
+R_Array_6
+6-pin Resistor SIP pack
+R
+0
+6
+6
+4ms-footprints
+R_Array_8
+8-pin Resistor SIP pack
+R
+0
+8
+8
+4ms-footprints
+R_Array_BUS_6
+8-pin Resistor SIP pack
+R
+0
+6
+6
+4ms-footprints
+R_Array_BUS_10
+8-pin Resistor SIP pack
+R
+0
+10
+10
+4ms-footprints
+R_Array_GND_8
+8-pin Resistor SIP pack
+R
+0
+8
+8
+4ms-footprints
+R_Array_ISO_10
+8-pin Resistor SIP pack
+R
+0
+10
+10
+4ms-footprints
+Rail-mount-slot
+
+
+0
+0
+0
+4ms-footprints
+Reg_78Lxx
+TO-92 leads molded, narrow, drill 0.6mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+4ms-footprints
+Regulator_5V_7805_LARGE_TH
+TO-220, Vertical, RM 2.54mm
+TO-220 Vertical RM 2.54mm
+0
+3
+3
+4ms-footprints
+Regulator_FLAT_5V_7805_LARGE_TH_
+TO-220, Vertical, RM 2.54mm
+TO-220 Vertical RM 2.54mm
+0
+3
+3
+4ms-footprints
+Resistor_TH_300
+Resitance 3 pas
+R
+0
+2
+2
+4ms-footprints
+S25FL127SABMFI101
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+8
+8
+4ms-footprints
+SMA_Standard
+Diode SMA
+Diode SMA
+0
+2
+2
+4ms-footprints
+SOCKET_1x4_2.54mm_TH
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+4ms-footprints
+SOIC-8_3.9x4.9mm_Pitch1.27mm
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+8
+8
+4ms-footprints
+SOIC-16_3.9x9.9mm_Pitch1.27mm
+16-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+16
+16
+4ms-footprints
+SOT-23-8
+8-pin SOT-23 package, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sot-23rj/rj_8.pdf
+SOT-23-8
+0
+8
+8
+4ms-footprints
+SOT-23-DIODE-PINROTATECW
+SOT-23, Standard
+SOT-23
+0
+3
+3
+4ms-footprints
+SOT-23-DIODE-SWAP2AND3
+SOT-23, Standard
+SOT-23
+0
+3
+3
+4ms-footprints
+SOT23
+SOT-23
+
+0
+3
+3
+4ms-footprints
+SOT223
+SOT-223
+
+0
+4
+4
+4ms-footprints
+SPDT-SUB
+
+
+0
+3
+3
+4ms-footprints
+SPDT_KIT
+
+
+0
+3
+3
+4ms-footprints
+SPST-SUB
+
+
+0
+2
+2
+4ms-footprints
+SSOP-28
+
+
+0
+28
+28
+4ms-footprints
+SWITCHCRAFT-STEREO-SW_with_outline
+Switchcraft 1/4" Enclosed Switched Stereo Jack
+
+0
+5
+5
+4ms-footprints
+SWITCHCRAFT-STEREO_Jack_with_outline
+Switchcraft 1/4" Enclosed Switched Stereo Jack
+
+0
+3
+3
+4ms-footprints
+Slide_Switch_SPDT_Nexsun_MS2201L6
+
+
+0
+14
+7
+4ms-footprints
+Slide_Switch_SS22D06-G6-H_Runrun
+
+
+0
+10
+6
+4ms-footprints
+Socket_2x4_2.54mm_TH
+Through hole pin header
+pin header
+0
+8
+8
+4ms-footprints
+Socket_Straight_2x03_Pitch2.54mm
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+4ms-footprints
+Socket_Strip_Straight_2x03_Pitch2.54mm
+Through hole straight socket strip, 2x03, 2.54mm pitch, double rows
+Through hole socket strip THT 2x03 2.54mm double row
+0
+6
+6
+4ms-footprints
+Socket_Strip_Straight_2x04_Pitch2.54mm
+Through hole straight socket strip, 2x04, 2.54mm pitch, double rows
+Through hole socket strip THT 2x04 2.54mm double row
+0
+8
+8
+4ms-footprints
+Socket_Strip_Straight_2x08_Pitch2.54mm_TH
+Through hole straight socket strip, 2x08, 2.54mm pitch, double rows
+Through hole socket strip THT 2x08 2.54mm double row
+0
+16
+16
+4ms-footprints
+TENTURN_POT
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+2
+2
+4ms-footprints
+TO-92_Molded_Narrow
+TO-92 leads molded, narrow, drill 0.6mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+4ms-footprints
+TRIM-T73YE
+
+
+0
+3
+3
+4ms-footprints
+TSOP-54_W400
+http://download.micron.com/pdf/datasheets/dram/sdram/256MSDRAM.pdf
+54-Pin TSOP (400 mil)
+0
+54
+54
+4ms-footprints
+TSOP54
+http://download.micron.com/pdf/datasheets/dram/sdram/256MSDRAM.pdf
+54-Pin TSOP (400 mil)
+0
+54
+54
+4ms-footprints
+TSSOP-8_4.4x3mm_Pitch0.65mm
+8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+8
+8
+4ms-footprints
+TSSOP-28_4.4x9.7mm_Pitch0.65mm
+TSSOP28: plastic thin shrink small outline package; 28 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot361-1_po.pdf)
+SSOP 0.65
+0
+28
+28
+4ms-footprints
+TTplace
+
+
+0
+0
+0
+4ms-footprints
+Trim_Round_Black_Large
+
+
+0
+3
+3
+4ms-footprints
+Trim_Round_Black_Small
+
+
+0
+3
+3
+4ms-footprints
+wire-hole
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+1
+1
 4ms_Capacitor
 CP_Elec_5x5.3
 SMT capacitor, aluminium electrolytic, 5x5.3
@@ -272,83 +1245,6 @@ Wire_12AWG
 0
 1
 1
-4ms_Connector_Card
-CardSlot_MicroSD_YamaichiPJS008U-3000
-https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf
-MICROSD SDCARD
-0
-10
-10
-4ms_Converter_DCDC
-OKI-78SR-Horizontal
-TO-220, Horizontal, DCDC
-TO-220 Horizontal DCDC
-0
-3
-3
-4ms_Converter_DCDC
-OKI-78SR-Vertical
-TO-220, Vertical, RM 2.54mm
-TO-220 Vertical RM 2.54mm
-0
-3
-3
-4ms_Converter_DCDC
-QFN_LMZM3360x_2
-
-
-0
-67
-18
-4ms_Converter_DCDC
-QFN_LMZM3360x_handsolder
-
-
-0
-69
-18
-4ms_Converter_DCDC
-Recom_78E_DCDC
-RECOM R-78E-0.5 DC/DC converter
-
-0
-3
-3
-4ms_Converter_DCDC
-VXO78xx
-TO-220, Vertical, RM 2.54mm
-TO-220 Vertical RM 2.54mm
-0
-3
-3
-4ms_Converter_DCDC
-VXO78xx-1000
-TO-220, Vertical, RM 2.54mm
-TO-220 Vertical RM 2.54mm
-0
-3
-3
-4ms_Converter_DCDC
-VXO78xx-1000_Horiz
-TO-220, Vertical, RM 2.54mm
-TO-220 Vertical RM 2.54mm
-0
-6
-3
-4ms_Converter_DCDC
-VXO78xx-1000_Horiz_rev2
-TO-220, Vertical, RM 2.54mm
-TO-220 Vertical RM 2.54mm
-0
-6
-3
-4ms_Converter_DCDC
-VXO78xx-1000_Horiz_rev3
-TO-220, Vertical, RM 2.54mm
-TO-220 Vertical RM 2.54mm
-0
-3
-3
 4ms_Crystal
 Crystal_P2.54mm
 
@@ -461,300 +1357,6 @@ ROTENC-12MM-BUT
 0
 7
 6
-4ms_Experimental_FP
-Button_LED_PB61303_Adjusted
-
-
-0
-8
-8
-4ms_Experimental_FP
-Button_LED_PB61303_Adjusted+
-
-
-0
-8
-8
-4ms_Experimental_FP
-FPC_1x06_TEConn_2328702
-
-
-0
-8
-7
-4ms_Experimental_FP
-QFN-48_EP_7x7_P0.5mm_Pad0.55x0.30
-
-
-0
-52
-49
-4ms_Experimental_FP
-XLR-NCJ6FA-V-0-TEST
-
-
-0
-0
-0
-4ms_Experimental_FP
-XLR-TEST
-
-
-0
-8
-4
-4ms_Faceplate
-Faceplate_Hole_Encoder_290
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Encoder_KnurledShaft_Alpha
-
-Rotary Encoder RGB
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Encoder_RGB_360
-
-Rotary Encoder RGB
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Encoder_RGB_NoBushing
-
-Rotary Encoder RGB
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Encoder_RGB_WithKnob
-
-Rotary Encoder RGB
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_FSR_slot
-
-
-0
-0
-0
-4ms_Faceplate
-Faceplate_Hole_Jack_3.5mm
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Jack_3.5mm_Copper8mm
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Jack_Barrel_315
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Jack_Quarter_Inch
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_LED_3mm
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_LED_Button_5.4mm_With_Mask_Opening
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_LED_Button_7mm
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_LED_Button_7mm_With_Mask_Opening
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Lightpipe_115
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Lightpipe_With_Mask_Opening
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Pot_9mm
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Pot_9mm_Metal_Collar
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Pot_16mm
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Pot_16mm_Hole8mm
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Rail_Hole
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Slider_25mm_Slot
-
-
-0
-0
-0
-4ms_Faceplate
-Faceplate_Hole_Spacer_Mount_256
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_SubMini_Toggle
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_SubMini_Toggle_HoleSize5.5mm
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_Trim_3.175mm_With_Mask_Opening
-
-
-0
-1
-1
-4ms_Faceplate
-Faceplate_Hole_XLR_Quarter_Inch
-
-
-0
-3
-1
-4ms_Faceplate
-Faceplate_Rail_Mount_Slot
-
-
-0
-0
-0
-4ms_Faceplate
-Faceplate_Rail_Mount_Slot-Circular
-
-
-0
-0
-0
-4ms_Faceplate
-Faceplate_Slide_Switch_MS2201L6_Nexsun
-
-
-0
-0
-0
-4ms_Faceplate
-Faceplate_Slide_Switch_SS22D06_Runrun
-
-
-0
-0
-0
-4ms_Faceplate
-Pot_10Turn_3590S-2-202L
-module 1 pin (ou trou mecanique de percage)
-DEV
-0
-2
-2
-4ms_Faceplate
-Rail_Connection_4HP
-
-
-0
-1
-1
-4ms_Faceplate
-Rail_Connection_6HP
-
-
-0
-1
-1
-4ms_Faceplate
-Rail_Connection_16HP
-
-
-0
-1
-1
-4ms_Faceplate
-Switch_Toggle_Mini_6.35mm_With_Mask_Opening
-
-
-0
-1
-1
 4ms_Hardware
 MountingHole_2-56
 Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
@@ -8253,6 +8855,13 @@ SMA THT Female Jack Horizontal
 5
 2
 Connector_Coaxial
+SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount
+http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf
+SMA
+0
+5
+2
+Connector_Coaxial
 SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
 Connector SMA, 0Hz to 20GHz, 50Ohm, Edge Mount (http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf)
 SMA Straight Samtec Edge Mount
@@ -11865,12 +12474,54 @@ connector Hirose  top entry
 17
 16
 Connector_Hirose
+Hirose_DF63-1P-3.96DSA_1x01_P3.96mm_Horizontal
+Molex DF63 through hole, DF63-1P-3.96DSA, 1 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+1
+1
+Connector_Hirose
+Hirose_DF63-2P-3.96DSA_1x02_P3.96mm_Horizontal
+Molex DF63 through hole, DF63-2P-3.96DSA, 2 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+2
+2
+Connector_Hirose
+Hirose_DF63-3P-3.96DSA_1x03_P3.96mm_Horizontal
+Molex DF63 through hole, DF63-3P-3.96DSA, 3 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+3
+3
+Connector_Hirose
+Hirose_DF63-4P-3.96DSA_1x04_P3.96mm_Horizontal
+Molex DF63 through hole, DF63-4P-3.96DSA, 4 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+4
+4
+Connector_Hirose
+Hirose_DF63-5P-3.96DSA_1x05_P3.96mm_Horizontal
+Molex DF63 through hole, DF63-5P-3.96DSA, 5 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+5
+5
+Connector_Hirose
 Hirose_DF63-5P-3.96DSA_1x05_P3.96mm_Vertical
 Hirose DF63 through hole, DF63-5P-3.96DSA, 5 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
 connector Hirose DF63 vertical
 0
 5
 5
+Connector_Hirose
+Hirose_DF63-6P-3.96DSA_1x06_P3.96mm_Horizontal
+Molex DF63 through hole, DF63-6P-3.96DSA, 6 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+6
+6
 Connector_Hirose
 Hirose_DF63-6P-3.96DSA_1x06_P3.96mm_Vertical
 Hirose DF63 through hole, DF63-6P-3.96DSA, 6 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
@@ -20188,12 +20839,26 @@ connector Molex Sabre top entry
 90
 6
 Connector_Molex
+Molex_SlimStack_52991-0200_2x10_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0200, 20 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack side entry
+0
+20
+20
+Connector_Molex
 Molex_SlimStack_52991-0208_2x10_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0208, 20 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
 connector Molex SlimStack vertical
 0
 20
 20
+Connector_Molex
+Molex_SlimStack_52991-0300_2x15_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0300, 30 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack side entry
+0
+30
+30
 Connector_Molex
 Molex_SlimStack_52991-0308_2x15_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0308, 30 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
@@ -20202,12 +20867,26 @@ connector Molex SlimStack vertical
 30
 30
 Connector_Molex
+Molex_SlimStack_52991-0400_2x20_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0400, 40 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack side entry
+0
+40
+40
+Connector_Molex
 Molex_SlimStack_52991-0408_2x20_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0408, 40 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
 connector Molex SlimStack vertical
 0
 40
 40
+Connector_Molex
+Molex_SlimStack_52991-0500_2x25_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0500, 50 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack side entry
+0
+50
+50
 Connector_Molex
 Molex_SlimStack_52991-0508_2x25_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0508, 50 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
@@ -20216,6 +20895,13 @@ connector Molex SlimStack vertical
 50
 50
 Connector_Molex
+Molex_SlimStack_52991-0600_2x30_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0600, 60 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack side entry
+0
+60
+60
+Connector_Molex
 Molex_SlimStack_52991-0608_2x30_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0608, 60 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
 connector Molex SlimStack vertical
@@ -20223,12 +20909,26 @@ connector Molex SlimStack vertical
 60
 60
 Connector_Molex
+Molex_SlimStack_52991-0700_2x35_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0700, 70 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack side entry
+0
+70
+70
+Connector_Molex
 Molex_SlimStack_52991-0708_2x35_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0708, 70 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
 connector Molex SlimStack vertical
 0
 70
 70
+Connector_Molex
+Molex_SlimStack_52991-0800_2x40_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0800, 80 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack side entry
+0
+80
+80
 Connector_Molex
 Molex_SlimStack_52991-0808_2x40_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0808, 80 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
@@ -20761,6 +21461,13 @@ PCI bus Edge Connector
 0
 240
 120
+Connector_PCBEdge
+BUS_PCIexpress
+PCIexpress Bus Edge Connector
+PCIexpress Bus Edge Connector
+0
+70
+36
 Connector_PCBEdge
 BUS_PCIexpress_x1
 PCIexpress Bus Edge Connector x1 http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=70
@@ -43994,69 +44701,6 @@ connector
 0
 4
 4
-Connector_Wuerth
-Wuerth_WR-WTB_64800211622_1x02_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800211622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-2
-2
-Connector_Wuerth
-Wuerth_WR-WTB_64800311622_1x03_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800311622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-3
-3
-Connector_Wuerth
-Wuerth_WR-WTB_64800411622_1x04_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800411622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-4
-4
-Connector_Wuerth
-Wuerth_WR-WTB_64800511622_1x05_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800511622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-5
-5
-Connector_Wuerth
-Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800611622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-6
-6
-Connector_Wuerth
-Wuerth_WR-WTB_64800711622_1x07_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800711622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-7
-7
-Connector_Wuerth
-Wuerth_WR-WTB_64800811622_1x08_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800811622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-8
-8
-Connector_Wuerth
-Wuerth_WR-WTB_64800911622_1x09_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800911622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-9
-9
-Connector_Wuerth
-Wuerth_WR-WTB_64801011622_1x10_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64801011622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-10
-10
 Converter_ACDC
 Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical
 ACDC-Converter, 3W, CUI PBO-3, THT https://www.cui.com/product/resource/pbo-3.pdf
@@ -46095,6 +46739,13 @@ MicroMELF Diode
 2
 2
 Diode_SMD
+D_MicroMELF_Hadsoldering
+Diode, MicroMELF, hand-soldering, http://www.vishay.com/docs/85597/bzm55-se.pdf
+MicroMELF Diode
+0
+2
+2
+Diode_SMD
 D_MicroMELF_Handsoldering
 Diode, MicroMELF, Hand Soldering, http://www.vishay.com/docs/85597/bzm55.pdf
 MicroMELF Diode
@@ -47698,6 +48349,27 @@ Alpha9mmPot-SemiSMD3
 5
 3
 Eurocad
+Alpha9mmPot-SemiSMD5
+
+
+0
+5
+3
+Eurocad
+AlphaBoourns9mmPot-CC
+
+
+0
+5
+3
+Eurocad
+AlphaBoourns9mmPot-CC2
+
+
+0
+5
+3
+Eurocad
 B3W9_1LED
 
 
@@ -47711,6 +48383,13 @@ BA56_3DIG_7SEG
 0
 12
 12
+Eurocad
+CC-POWER-00
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
 Eurocad
 DC_JACK
 
@@ -47738,6 +48417,13 @@ EighthInch_PJ301BM_CC_FIXED
 
 0
 4
+3
+Eurocad
+EighthInch_PJ398SM_COMPACT-CCFIXED
+
+
+0
+3
 3
 Eurocad
 LED3mm
@@ -58975,6 +59661,13 @@ UDFN-4_1x1mm_P0.65mm
 5
 5
 Package_DFN_QFN
+UDFN-4_1x1mm_P0.65mm
+UDFN-4_1x1mm_P0.65mm
+UDFN-4_1x1mm_P0.65mm
+0
+16
+5
+Package_DFN_QFN
 UDFN-9_1.0x3.8mm_P0.5mm
 9-pin UDFN package, 1.0x3.8mm, (Ref: https://katalog.we-online.de/pbs/datasheet/824014881.pdf)
 UDFN SMD
@@ -61560,6 +62253,13 @@ NXP LGA NoLead
 Package_LGA
 NXP_LGA-8_3x5mm_P1.25mm_H1.2mm
 NXP  LGA, 8 Pin (https://www.nxp.com/docs/en/data-sheet/MPL115A1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+NXP LGA NoLead
+0
+8
+8
+Package_LGA
+NXP_MPL115A1_LGA-8_3x5mm_P1.25mm
+NXP MPL115A1 LGA, 8 Pin (https://www.nxp.com/docs/en/data-sheet/MPL115A1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 NXP LGA NoLead
 0
 8
@@ -64386,6 +65086,20 @@ LFPAK56 SOT-669 Power-SO8
 18
 5
 Package_TO_SOT_SMD
+LFPAK56_ThermalVias-1
+LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
+LFPAK56 SOT669 Thermal Vias 0.4mm Power-SO8
+0
+63
+5
+Package_TO_SOT_SMD
+LFPAK56_ThermalVias-2
+LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
+LFPAK56 SOT669 Thermical Vias Power-SO8
+0
+30
+5
+Package_TO_SOT_SMD
 OnSemi_ECH8
 On Semiconductor ECH8, https://www.onsemi.com/pub/Collateral/318BF.PDF
 ECH8 SOT28-FL SOT-28-FL
@@ -64832,6 +65546,13 @@ Power MOSFET package, TDSON-8-1, 5.15x5.9mm (https://www.infineon.com/cms/en/pro
 tdson 
 0
 14
+5
+Package_TO_SOT_SMD
+TDSON-8-1_HandSoldering
+Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
+tdson 
+0
+13
 5
 Package_TO_SOT_SMD
 TO-50-3_LongPad-NoHole_Housing
@@ -74662,6 +75383,13 @@ THT Terminal Block WAGO 236-104 45Degree pitch 5mm size 22.3x14mm^2 drill 1.15mm
 4
 4
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-105_1x05_P5.00mm_45Degree
+Terminal Block WAGO 236-105, 45Degree (cable under 45degree), 5 pins, pitch 5mm, size 26.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-105 45Degree pitch 5mm size 26.5x14mm^2 drill 1mm pad 3mm
+0
+10
+5
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree
 Terminal Block WAGO 236-106, 45Degree (cable under 45degree), 6 pins, pitch 5mm, size 32.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-106 45Degree pitch 5mm size 32.3x14mm^2 drill 1.15mm pad 3mm
@@ -74669,12 +75397,33 @@ THT Terminal Block WAGO 236-106 45Degree pitch 5mm size 32.3x14mm^2 drill 1.15mm
 6
 6
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-107_1x07_P5.00mm_45Degree
+Terminal Block WAGO 236-107, 45Degree (cable under 45degree), 7 pins, pitch 5mm, size 36.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-107 45Degree pitch 5mm size 36.5x14mm^2 drill 1mm pad 3mm
+0
+14
+7
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-108_1x08_P5.00mm_45Degree
 Terminal Block WAGO 236-108, 45Degree (cable under 45degree), 8 pins, pitch 5mm, size 42.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-108 45Degree pitch 5mm size 42.3x14mm^2 drill 1.15mm pad 3mm
 0
 8
 8
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-109_1x09_P5.00mm_45Degree
+Terminal Block WAGO 236-109, 45Degree (cable under 45degree), 9 pins, pitch 5mm, size 46.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-109 45Degree pitch 5mm size 46.5x14mm^2 drill 1mm pad 3mm
+0
+18
+9
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-110_1x10_P5.00mm_45Degree
+Terminal Block WAGO 236-110, 45Degree (cable under 45degree), 10 pins, pitch 5mm, size 51.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-110 45Degree pitch 5mm size 51.5x14mm^2 drill 1mm pad 3mm
+0
+20
+10
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-112_1x12_P5.00mm_45Degree
 Terminal Block WAGO 236-112, 45Degree (cable under 45degree), 12 pins, pitch 5mm, size 62.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -74739,6 +75488,13 @@ THT Terminal Block WAGO 236-204 45Degree pitch 7.5mm size 32.3x14mm^2 drill 1.15
 4
 4
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-205_1x05_P7.50mm_45Degree
+Terminal Block WAGO 236-205, 45Degree (cable under 45degree), 5 pins, pitch 7.5mm, size 39x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-205 45Degree pitch 7.5mm size 39x14mm^2 drill 1mm pad 3mm
+0
+10
+5
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-206_1x06_P7.50mm_45Degree
 Terminal Block WAGO 236-206, 45Degree (cable under 45degree), 6 pins, pitch 7.5mm, size 47.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-206 45Degree pitch 7.5mm size 47.3x14mm^2 drill 1.15mm pad 3mm
@@ -74746,12 +75502,33 @@ THT Terminal Block WAGO 236-206 45Degree pitch 7.5mm size 47.3x14mm^2 drill 1.15
 6
 6
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-207_1x07_P7.50mm_45Degree
+Terminal Block WAGO 236-207, 45Degree (cable under 45degree), 7 pins, pitch 7.5mm, size 54x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-207 45Degree pitch 7.5mm size 54x14mm^2 drill 1mm pad 3mm
+0
+14
+7
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-208_1x08_P7.50mm_45Degree
 Terminal Block WAGO 236-208, 45Degree (cable under 45degree), 8 pins, pitch 7.5mm, size 62.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-208 45Degree pitch 7.5mm size 62.3x14mm^2 drill 1.15mm pad 3mm
 0
 8
 8
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-209_1x09_P7.50mm_45Degree
+Terminal Block WAGO 236-209, 45Degree (cable under 45degree), 9 pins, pitch 7.5mm, size 69x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-209 45Degree pitch 7.5mm size 69x14mm^2 drill 1mm pad 3mm
+0
+18
+9
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-210_1x10_P7.50mm_45Degree
+Terminal Block WAGO 236-210, 45Degree (cable under 45degree), 10 pins, pitch 7.5mm, size 76.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-210 45Degree pitch 7.5mm size 76.5x14mm^2 drill 1mm pad 3mm
+0
+20
+10
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-212_1x12_P7.50mm_45Degree
 Terminal Block WAGO 236-212, 45Degree (cable under 45degree), 12 pins, pitch 7.5mm, size 92.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -74802,6 +75579,13 @@ THT Terminal Block WAGO 236-304 45Degree pitch 10mm size 42.3x14mm^2 drill 1.15m
 4
 4
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-305_1x05_P10.00mm_45Degree
+Terminal Block WAGO 236-305, 45Degree (cable under 45degree), 5 pins, pitch 10mm, size 51.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-305 45Degree pitch 10mm size 51.5x14mm^2 drill 1mm pad 3mm
+0
+10
+5
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-306_1x06_P10.00mm_45Degree
 Terminal Block WAGO 236-306, 45Degree (cable under 45degree), 6 pins, pitch 10mm, size 62.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-306 45Degree pitch 10mm size 62.3x14mm^2 drill 1.15mm pad 3mm
@@ -74809,12 +75593,33 @@ THT Terminal Block WAGO 236-306 45Degree pitch 10mm size 62.3x14mm^2 drill 1.15m
 6
 6
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-307_1x07_P10.00mm_45Degree
+Terminal Block WAGO 236-307, 45Degree (cable under 45degree), 7 pins, pitch 10mm, size 71.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-307 45Degree pitch 10mm size 71.5x14mm^2 drill 1mm pad 3mm
+0
+14
+7
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-308_1x08_P10.00mm_45Degree
 Terminal Block WAGO 236-308, 45Degree (cable under 45degree), 8 pins, pitch 10mm, size 82.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-308 45Degree pitch 10mm size 82.3x14mm^2 drill 1.15mm pad 3mm
 0
 8
 8
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-309_1x09_P10.00mm_45Degree
+Terminal Block WAGO 236-309, 45Degree (cable under 45degree), 9 pins, pitch 10mm, size 91.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-309 45Degree pitch 10mm size 91.5x14mm^2 drill 1mm pad 3mm
+0
+18
+9
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-310_1x10_P10.00mm_45Degree
+Terminal Block WAGO 236-310, 45Degree (cable under 45degree), 10 pins, pitch 10mm, size 102x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-310 45Degree pitch 10mm size 102x14mm^2 drill 1mm pad 3mm
+0
+20
+10
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-312_1x12_P10.00mm_45Degree
 Terminal Block WAGO 236-312, 45Degree (cable under 45degree), 12 pins, pitch 10mm, size 122x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
